@@ -907,7 +907,7 @@ let regions = {
 }
 
 
-const Slr = () => {
+const InputRSL = () => {
   const [selectedRegion, setSelectedRegion] = useState('');
   const [selectedState, setSelectedState] = useState('');
   const [selectedLga, setSelectedLga] = useState('');
@@ -985,4 +985,4 @@ const Slr = () => {
   );
 };
 
-export default Slr;
+export default InputRSL;
