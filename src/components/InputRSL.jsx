@@ -941,7 +941,7 @@ const InputRSL = () => {
         <input
           type="text"
           id="region"
-          className="w-full py-2 px-3 bg-gray-200 text-gray-600 cursor-not-allowed"
+          className="w-full py-2 px-3 rounded-md bg-gray-200 text-gray-600 cursor-not-allowed"
           value={selectedRegion}
         />
       </div>
@@ -951,7 +951,7 @@ const InputRSL = () => {
         </label>
         <select
           id="state"
-          className="w-full py-2 px-3 bg-white text-gray-600 border border-gray-300 focus:outline-none focus:ring focus:ring-blue-500"
+          className="w-full py-2 px-3 rounded-md bg-white text-gray-600 border border-gray-300 focus:outline-none focus:ring focus:ring-blue-500"
           value={selectedState}
           onChange={handleStateChange}
         >
@@ -971,7 +971,7 @@ const InputRSL = () => {
         </label>
         <select
           id="lga"
-          className="w-full py-2 px-3 bg-white text-gray-600 border border-gray-300 focus:outline-none focus:ring focus:ring-blue-500"
+          className="w-full py-2 px-3 rounded-md bg-white text-gray-600 border border-gray-300 focus:outline-none focus:ring focus:ring-blue-500"
           value={selectedLga}
           onChange={handleLgaChange}
         >
