@@ -1,6 +1,7 @@
 import { useState } from 'react';
+import PropTypes from 'prop-types';
 
-let lgaList = {
+const lgaList = {
   Abia: [
     "Aba North",
     "Aba South",
@@ -854,7 +855,7 @@ let lgaList = {
     "Zurmi"
   ]
 }
-let regions = {
+const regions = {
   "North Central": [
     "Benue",
     "Kogi",
@@ -929,6 +930,8 @@ const InputRSL = () => {
     setSelectedLga(e.target.value);
   };
 
+  
+
   return (
     <div className="flex flex-wrap">
       <div className="flex-shrink-0 w-full md:w-1/3 px-4 mb-4 md:mb-0">
@@ -983,6 +986,14 @@ const InputRSL = () => {
       </div>
     </div>
   );
+};
+
+InputRSL.propTypes = {
+  selectedRegion: PropTypes.string.isRequired,
+  selectedState: PropTypes.string.isRequired,
+  selectedLga: PropTypes.string.isRequired,
+  handleStateChange: PropTypes.func.isRequired,
+  handleLgaChange: PropTypes.func.isRequired
 };
 
 export default InputRSL;
