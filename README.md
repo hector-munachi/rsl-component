@@ -1,5 +1,8 @@
 
-# rsl-component ![Nigerian flag](./public/ng-flag.png)
+# rsl-component <div style="border-radius: 50%; overflow: hidden; width: 40px; height: 40px;">
+  <img src="./public/ng-flag.png" alt="Image Alt Text" style="width: 100%; height: auto;">
+</div>
+<!-- ![Nigerian flag](./public/ng-flag.png) -->
 
 A reusable React component built with Vite and Tailwind CSS for selecting region, state, and local government area (LGA) in a form. The component allows users to select a corresponding Nigerian region, state, and LGA from dropdown menus.
 
