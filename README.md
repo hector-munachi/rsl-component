@@ -18,7 +18,7 @@ Install this package with npm
 
 Import and use the InputRSL component in your React component
 ```javascript
-import InputRSL from 'input-rsl';
+import InputRSL from 'rsl-component';
 
 <InputRSL />
 ```
