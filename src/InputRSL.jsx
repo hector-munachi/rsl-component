@@ -1,5 +1,7 @@
 import { useState } from 'react';
-import PropTypes from 'prop-types';
+import './App.css'
+
+
 
 const lgaList = {
   Abia: [
@@ -933,27 +935,27 @@ const InputRSL = () => {
   
 
   return (
-    <div className="flex flex-wrap">
-      <div className="flex-shrink-0 w-full md:w-1/3 px-4 mb-4 md:mb-0">
-        <label htmlFor="region" className="block mb-2 font-semibold">
+    <div className="container">
+      <div className="input-container">
+        <label htmlFor="region" >
           Region
         </label>
         <input
           type="text"
           id="region"
-          className="w-full py-2 px-3 rounded-md bg-gray-200 text-gray-600 cursor-not-allowed"
           value={selectedRegion}
         />
       </div>
-      <div className="flex-shrink-0 w-full md:w-1/3 px-4 mb-4 md:mb-0">
-        <label htmlFor="state" className="block mb-2 font-semibold">
+      <div className="input-container">
+        <label htmlFor="state" >
           State
         </label>
         <select
           id="state"
-          className="w-full py-2 px-3 rounded-md bg-white text-gray-600 border border-gray-300 focus:outline-none focus:ring focus:ring-blue-500"
           value={selectedState}
           onChange={handleStateChange}
+          autoFocus
+          required
         >
           <option value="">Select State</option>
           {Object.keys(regions).map((region) => (
@@ -965,15 +967,15 @@ const InputRSL = () => {
           ))}
         </select>
       </div>
-      <div className="flex-shrink-0 w-full md:w-1/3 px-4 mb-4 md:mb-0">
-        <label htmlFor="lga" className="block mb-2 font-semibold">
+      <div className="input-container">
+        <label htmlFor="lga" >
           LGA
         </label>
         <select
           id="lga"
-          className="w-full py-2 px-3 rounded-md bg-white text-gray-600 border border-gray-300 focus:outline-none focus:ring focus:ring-blue-500"
           value={selectedLga}
           onChange={handleLgaChange}
+          required
         >
           <option value="">Select LGA</option>
           {selectedState &&
@@ -988,12 +990,6 @@ const InputRSL = () => {
   );
 };
 
-InputRSL.propTypes = {
-  selectedRegion: PropTypes.string.isRequired,
-  selectedState: PropTypes.string.isRequired,
-  selectedLga: PropTypes.string.isRequired,
-  handleStateChange: PropTypes.func.isRequired,
-  handleLgaChange: PropTypes.func.isRequired
-};
 
 export default InputRSL;
+
