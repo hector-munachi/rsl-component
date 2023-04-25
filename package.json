@@ -3,7 +3,7 @@
   "private": false,
   "version": "1.0.4",
   "type": "module",
-  "main": "InputRSL.js",
+  "main": "src/InputRSL.jsx",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
