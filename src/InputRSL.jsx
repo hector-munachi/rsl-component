@@ -954,7 +954,6 @@ const InputRSL = () => {
           id="state"
           value={selectedState}
           onChange={handleStateChange}
-          autoFocus
           required
         >
           <option value="">Select State</option>
