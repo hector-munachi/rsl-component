@@ -943,7 +943,7 @@ const InputRSL = () => {
         <input
           type="text"
           id="region"
-          value={selectedRegion}
+          defaultValue={selectedRegion}
         />
       </div>
       <div className="input-container">
