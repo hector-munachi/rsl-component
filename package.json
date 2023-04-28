@@ -1,9 +1,15 @@
 {
   "name": "rsl-component",
   "private": false,
-  "version": "1.0.10",
+  "version": "1.0.11",
   "keywords": [
-    "react", "vite", "region", "state", "lga", "reusable-component", "Nigeria"
+    "react",
+    "vite",
+    "region",
+    "state",
+    "lga",
+    "reusable-component",
+    "Nigeria"
   ],
   "homepage": "https://rsl-component.netlify.app/",
   "type": "module",
