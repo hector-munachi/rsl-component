@@ -2,6 +2,10 @@
   "name": "rsl-component",
   "private": false,
   "version": "1.0.10",
+  "keywords": [
+    "react", "vite", "region", "state", "lga", "reusable-component", "Nigeria"
+  ],
+  "homepage": "https://rsl-component.netlify.app/",
   "type": "module",
   "main": "src/InputRSL.jsx",
   "scripts": {
@@ -9,6 +13,10 @@
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hector-munachi/rsl-component"
   },
   "dependencies": {
     "react": "^18.2.0",
