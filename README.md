@@ -1,6 +1,5 @@
 
 # rsl-component 
-<!-- ![Nigerian flag](./public/ng-flag.png) -->
 
 A reusable React component that simplifies the process of adding Region, State, and LGA selection drop-downs to forms in web applications. This helps developers by eliminating the need to build these inputs from scratch. 
 
