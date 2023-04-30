@@ -86,7 +86,7 @@ In this example, the `formData` state holds the values selected by the user in t
 ## `showRegion` prop
 The `showRegion` prop is a boolean that controls the visibility of the "Region" input field in the InputRSL component. If set to `true`, the "Region" input field will be displayed, and if set to `false`, the "Region" input field will be hidden.
 
-**To use** the showRegion prop, simply pass it to the `InputRSL` component as a boolean prop. For example:
+**To use the** `showRegion` prop, simply pass it to the `InputRSL` component as a boolean prop. For example:
 ```javascript
 <InputRSL showRegion={true} />
 
