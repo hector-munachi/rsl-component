@@ -6,15 +6,19 @@ A reusable React component that simplifies the process of adding Region, State, 
 
 ## Installation
 
-Install this package with npm
+Install this package with npm or yarn:
 
 ```bash
-  npm i rsl-component
+# If you use npm:
+npm install react-redux
+
+# Or if you use Yarn:
+yarn add react-redux
 ```
     
 ## Usage
 
-Import and use the InputRSL component in your React component
+Import and use the InputRSL component in your React component.
 ```javascript
 import InputRSL from 'rsl-component';
 
