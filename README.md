@@ -86,9 +86,7 @@ In this example, the `formData` state holds the values selected by the user in t
 ## `showRegion` prop
 The `showRegion` prop is a boolean that controls the visibility of the "Region" input field in the InputRSL component. If set to `true`, the "Region" input field will be displayed, and if set to `false`, the "Region" input field will be hidden.
 
-**Usage**
-
-To use the showRegion prop, simply pass it to the `InputRSL` component as a boolean prop. For example:
+**To use** the showRegion prop, simply pass it to the `InputRSL` component as a boolean prop. For example:
 ```javascript
 <InputRSL showRegion={true} />
 
@@ -102,15 +100,9 @@ To hide the "Region" input field, simply set the showRegion prop to `false`:
 ```
 In this example, we're passing the showRegion prop with a value of `false`, which means that the "Region" input field will be hidden in the `InputRSL` component.
 
-**Default Value**
+**By default value**, the `showRegion` prop is set to `true`, which means that the "Region" input field will be displayed in the `InputRSL` component if the prop is not explicitly set to `false`.
 
-By default, the `showRegion` prop is set to `true`, which means that the "Region" input field will be displayed in the `InputRSL` component if the prop is not explicitly set to `false`.
-
-**Notes**
-
-If you set `showRegion` to `false`, the first input field will be hidden, and the remaining two input fields will shift up to take its place.
-
-If you set `showRegion` to `true`, the "Region" input field will be displayed, and the remaining two input fields will shift down to make space for it.
+**Take note that** if you set `showRegion` to `false`, the first input field will be hidden, and the remaining two input fields will shift up to take its place. If you set `showRegion` to `true`, the "Region" input field will be displayed, and the remaining two input fields will shift down to make space for it.
 
 ## Contributing
 
