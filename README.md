@@ -81,7 +81,7 @@ export default MyForm;
 
 ```
 
-In this example, the formData state holds the values selected by the user in the `InputRSL` component, and the corresponding `handleRegionChange`, `handleStateChange`, and `handleLgaChange` callback functions are passed as props to the `InputRSL` component to update the form data state when the user makes selections. You can then access the selected values from the form data state (`formData.region`, `formData.state`, and `formData.lga`) and use them for your form submission logic.
+In this example, the `formData` state holds the values selected by the user in the `InputRSL` component, and the corresponding `handleRegionChange`, `handleStateChange`, and `handleLgaChange` callback functions are passed as props to the `InputRSL` component to update the form data state when the user makes selections. You can then access the selected values from the form data state (`formData.region`, `formData.state`, and `formData.lga`) and use them for your form submission logic.
 
 ## Contributing
 
