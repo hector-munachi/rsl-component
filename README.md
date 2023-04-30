@@ -106,6 +106,7 @@ By default, the `showRegion` prop is set to `true`, which means that the "Region
 
 **Notes**
 If you set `showRegion` to `false`, the first input field will be hidden, and the remaining two input fields will shift up to take its place.
+
 If you set `showRegion` to `true`, the "Region" input field will be displayed, and the remaining two input fields will shift down to make space for it.
 
 ## Contributing
