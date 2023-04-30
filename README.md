@@ -83,6 +83,31 @@ export default MyForm;
 
 In this example, the `formData` state holds the values selected by the user in the `InputRSL` component, and the corresponding `handleRegionChange`, `handleStateChange`, and `handleLgaChange` callback functions are passed as props to the `InputRSL` component to update the form data state when the user makes selections. You can then access the selected values from the form data state (`formData.region`, `formData.state`, and `formData.lga`) and use them for your form submission logic.
 
+# `showRegion` prop
+The `showRegion` prop is a boolean that controls the visibility of the "Region" input field in the InputRSL component. If set to `true`, the "Region" input field will be displayed, and if set to `false`, the "Region" input field will be hidden.
+
+# Usage
+To use the showRegion prop, simply pass it to the `InputRSL` component as a boolean prop. For example:
+```javascript
+<InputRSL showRegion={true} />
+
+```
+In this example, we're passing the `showRegion` prop with a value of `true`, which means that the "Region" input field will be displayed in the `InputRSL` component.
+
+To hide the "Region" input field, simply set the showRegion prop to `false`:
+```javascript
+<InputRSL showRegion={false} />
+
+```
+In this example, we're passing the showRegion prop with a value of `false`, which means that the "Region" input field will be hidden in the `InputRSL` component.
+
+# Default Value
+By default, the `showRegion` prop is set to `true`, which means that the "Region" input field will be displayed in the `InputRSL` component if the prop is not explicitly set to `false`.
+
+# Notes
+If you set `showRegion` to `false`, the first input field will be hidden, and the remaining two input fields will shift up to take its place.
+If you set `showRegion` to `true`, the "Region" input field will be displayed, and the remaining two input fields will shift down to make space for it.
+
 ## Contributing
 
 We welcome and appreciate contributions from the community to help improve the codebase and make it even better and simpler! Whether it's fixing bugs, adding new features, improving documentation, or enhancing performance, your contributions can make a significant impact on the project.

@@ -910,7 +910,8 @@ const regions = {
 }
 
 
-const InputRSL = () => {
+// eslint-disable-next-line react/prop-types
+const InputRSL = ({ showRegion = true }) => {
   const [selectedRegion, setSelectedRegion] = useState('');
   const [selectedState, setSelectedState] = useState('');
   const [selectedLga, setSelectedLga] = useState('');
@@ -936,7 +937,8 @@ const InputRSL = () => {
 
   return (
     <div className="container">
-      <div className="input-container">
+      { showRegion &&
+        <div className="input-container">
         <label htmlFor="region" >
           Region
         </label>
@@ -947,6 +949,7 @@ const InputRSL = () => {
           disabled
         />
       </div>
+      }
       <div className="input-container">
         <label htmlFor="state" >
           State
@@ -989,6 +992,7 @@ const InputRSL = () => {
     </div>
   );
 };
+
 
 
 export default InputRSL;
