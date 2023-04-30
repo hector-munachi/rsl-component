@@ -22,9 +22,9 @@ import InputRSL from 'rsl-component';
 ```
 
 ## Example
-When you use the InputRSL component in your form, you can pass down the selectedRegion, selectedState, and selectedLga values as props, and also pass down the corresponding handleRegionChange, handleStateChange, and handleLgaChange callback functions to update the state when the user makes selections.
+When you use the `InputRSL` component in your form, you can pass down the `selectedRegion`, `selectedState`, and `selectedLga` values as props, and also pass down the corresponding `handleRegionChange`, `handleStateChange`, and `handleLgaChange` callback functions to update the state when the user makes selections.
 
-Here's an example of how you can use the InputRSL component in a form
+Here's an example of how you can use the `InputRSL` component in a form:
 
 ```javascript
 import React, { useState } from 'react';
@@ -77,15 +77,15 @@ export default MyForm;
 
 ```
 
-In this example, the formData state holds the values selected by the user in the InputRSL component, and the corresponding handleRegionChange, handleStateChange, and handleLgaChange callback functions are passed as props to the InputRSL component to update the form data state when the user makes selections. You can then access the selected values from the form data state (formData.region, formData.state, and formData.lga) and use them for your form submission logic.
+In this example, the formData state holds the values selected by the user in the `InputRSL` component, and the corresponding `handleRegionChange`, `handleStateChange`, and `handleLgaChange` callback functions are passed as props to the `InputRSL` component to update the form data state when the user makes selections. You can then access the selected values from the form data state (`formData.region`, `formData.state`, and `formData.lga`) and use them for your form submission logic.
 
 ## Contributing
 
 We welcome and appreciate contributions from the community to help improve the codebase and make it even better and simpler! Whether it's fixing bugs, adding new features, improving documentation, or enhancing performance, your contributions can make a significant impact on the project.
 
-See `here` for ways to get started.
+<!-- See `here` for ways to get started.
 
-Please adhere to this project's `code of conduct`.
+Please adhere to this project's `code of conduct`. -->
 
 
 ## Acknowledgements
