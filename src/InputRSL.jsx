@@ -944,6 +944,7 @@ const InputRSL = () => {
           type="text"
           id="region"
           defaultValue={selectedRegion}
+          disabled
         />
       </div>
       <div className="input-container">
