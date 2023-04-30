@@ -10,10 +10,10 @@ Install this package with npm or yarn:
 
 ```bash
 # If you use npm:
-npm install react-redux
+npm install rsl-component
 
 # Or if you use Yarn:
-yarn add react-redux
+yarn add rsl-component
 ```
     
 ## Usage
