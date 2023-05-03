@@ -18,7 +18,7 @@ yarn add rsl-component
     
 ## Usage
 
-Import and use the InputRSL component in your React component.
+Import and use the `InputRSL` component in your React component.
 ```javascript
 import InputRSL from 'rsl-component';
 
